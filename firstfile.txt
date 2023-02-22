@@ -1,0 +1,71 @@
+    1  ip a
+    2  vim /etc/netplan/
+    3  sudo apt install vin
+    4  sudo apt install vim
+    5  cd /etc/netplan/
+    6  ls -l
+    7  cp 01-network-manager-all.yaml 02-networkd
+    8  sudo cp 01-network-manager-all.yaml 02-networkd
+    9  ls -l
+   10  vim 02-networkd 
+   11  sudo vim 02-networkd 
+   12  mv 02-networkd 02-networkd.yaml
+   13  sudo mv 02-networkd 02-networkd.yaml
+   14  ls -l
+   15  sudo netplan try
+   16  ip a
+   17  sudo netplan apply
+   18  ip a
+   19  sudo poweroff
+   20  ls -l
+   21  cd ~
+   22  ls -l
+   23  cd ..
+   24  ls -l
+   25  cd vitali/
+   26  sudo apt install git
+   27  git -v
+   28  sudo git -v
+   29  git --version
+   30  clear
+   31  git init
+   32  clear
+   33  ls -la
+   34  sudo rm .git
+   35  sudo rmd .git
+   36  sudo rmdir .git
+   37  sudo rmdir -r .git
+   38  sudo rm -r .git
+   39  ls -la
+   40  mkdir Course
+   41  ls -la
+   42  cd Course
+   43  ls -la
+   44  mkdir 02.GIT.Local
+   45  ls -l
+   46  cd 02.GIT.Local/
+   47  git init
+   48  ls -la
+   49  cd .git/
+   50  ls -la
+   51  sudo vim config 
+   52  git config user.name "VitaliGet"
+   53  git config user.email "getmanovich1987@gmail.com"
+   54  sudo vim config 
+   55  cd ..
+   56  ls -l
+   57  ls -la
+   58  clear
+   59  history
+   60  history > /home/vitali/gitcomand
+   61  cd ..
+   62  ls -l
+   63  cd ..
+   64  ls -l
+   65  cat gitcomand 
+   66  git status
+   67  cd Course/02.GIT.Local/
+   68  git status
+   69  clear
+   70  ls -la
+   71  history > firstfile.txt
