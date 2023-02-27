@@ -1,19 +1,19 @@
     1  ip a
-    2  vim /etc/netplan/
+	2  vim /etc/netplan/
     3  sudo apt install vin
     4  sudo apt install vim
     5  cd /etc/netplan/
-    6  ls -l
+	    6  ls -l
     7  cp 01-network-manager-all.yaml 02-networkd
     8  sudo cp 01-network-manager-all.yaml 02-networkd
     9  ls -l
    10  vim 02-networkd 
-   11  sudo vim 02-networkd 
+	   11  sudo vim 02-networkd 
    12  mv 02-networkd 02-networkd.yaml
    13  sudo mv 02-networkd 02-networkd.yaml
    14  ls -l
    15  sudo netplan try
-   16  ip a
+	   16  ip a
    17  sudo netplan apply
    18  ip a
    19  sudo poweroff
